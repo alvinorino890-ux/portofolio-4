@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f3f3f3;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 60px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    color: #3178ff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a.active, nav a:hover {
+    color: #3178ff;
+    border-bottom: 2px solid #3178ff;
+}
+
+/* Home */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 60px;
+    background: white;
+}
+
+.home .text {
+    max-width: 450px;
+}
+
+.home .btn {
+    display: inline-block;
+    background: #3178ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.home img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* About */
+.about {
+    background: #1a2b8f;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+/* Skill */
+.skill {
+    padding: 60px;
+    background: white;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.skill-box {
+    text-align: center;
+}
+
+.skill-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-box p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* Portfolio */
+.portfolio {
+    background: #e6ecff;
+    padding: 60px;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #0a1445;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* static/style.css */
+
+/* Tambahkan ini di bagian paling atas atau di selector global */
+html {
+    /* Properti ini yang melakukan smooth scrolling */
+    scroll-behavior: smooth; 
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+/* ... kode CSS lainnya ... */
